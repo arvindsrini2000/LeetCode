@@ -13,4 +13,7 @@ class Solution {
         }
         return i;
     }
+
+    //0,0,1,1,1,1,2,3,3
+    //In this Eg, Use the regular technique. keep the i(Slow pointer) holded at the index where exactly counter is 2 or lessthan 2.
 }
