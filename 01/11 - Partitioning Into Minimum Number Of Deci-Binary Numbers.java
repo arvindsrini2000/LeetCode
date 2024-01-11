@@ -18,3 +18,7 @@ class Solution {
         return max;
     }
 }
+
+//The optimal solution would be to store the maxOfEachRows in a 1-D Array
+//and maxOfEachCols in a 1-D Array. Now for each cell iteration, you can just compare the cols and rows of current cell
+//and choose the min value of the two and add the diff of the current cell's value and the min value.
